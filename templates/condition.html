@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!-- if condition -->
+
+        <!-- <h1>condtion</h1>
+        {% if A > 9 %}
+            <h2>{{A}}</h2>
+        {% endif %} -->
+        
+        <!-- if else condition -->
+
+        <!-- {% if A > B %}
+            <h2>A is greater than B</h2>
+        {% else %}
+            <h2>B is greater than A</h2>
+        {% endif %} -->
+
+        <!-- if else if condition -->
+
+        <!-- {% if A > B %}
+            <h2>A is greater than B,C</h2>
+        {% elif B > C %}
+            <h2>B is greater than C,A</h2>
+        {% else %}
+            <h2>C is greater than B,A</h2>
+        {% endif %} -->
+
+        <!-- Nested if condition -->
+
+        <!-- {% if A > B %}
+            {% if A > C %}
+                <h2>A is Max</h2>
+            {% else %}
+                <h2>C is Max</h2>
+            {% endif %}
+        {% else %}
+            {% if B > C %}
+                <h2>B is Max</h2>
+            {% else %}
+                <h2>C is Max</h2>
+            {% endif %}
+        {% endif %} -->
+
+        {% if A > B %}
+            {% if A > C %}
+                <h2>A is Max</h2>
+            {% else %}
+                <h2>C is Max</h2>
+            {% endif %}
+        {% else %}
+            {% if B > C %}
+                <h2>B is Max</h2>
+            {% else %}
+                <h2>C is Max</h2>
+            {% endif %}
+        {% endif %}
+    </center>
+</body>
+</html>
